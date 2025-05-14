@@ -147,4 +147,3 @@ gcc -Wall -std=c99 seamcarving.c main.c -o seamcarving -lm
 
 **ESC190 Project**  
 Work done by **Mani Majd** and **Aayush Mengane**  
-📫 [LinkedIn – Mani Majd](https://www.linkedin.com/in/mani-majd)
