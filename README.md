@@ -4,7 +4,7 @@ This repository contains an implementation of a **content-aware image resizing a
 
 ---
 
-## 📌 Overview
+## Overview
 
 Seam carving is a technique introduced in 2007 to reduce image size while minimizing perceptual distortion. Instead of uniformly shrinking the image, it identifies and removes **low-energy vertical seams**—paths of connected pixels from top to bottom that are least important according to a **dual-gradient energy function**.
 
@@ -12,7 +12,7 @@ This project processes raw RGB images stored in `.bin` files and performs multip
 
 ---
 
-## 💡 Key Concepts
+## Key Concepts
 
 - **Dual-gradient energy function**: Measures the importance of each pixel using local color gradient magnitude.
 - **Dynamic programming**: Identifies the vertical seam with the minimum total energy.
@@ -21,7 +21,7 @@ This project processes raw RGB images stored in `.bin` files and performs multip
 
 ---
 
-## 🧠 Implementation Details
+## Implementation Details
 
 ### 1. Energy Calculation
 
@@ -93,7 +93,7 @@ destroy_image(im);
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 .
@@ -106,7 +106,7 @@ destroy_image(im);
 
 ---
 
-## 🔧 How to Compile and Run
+## How to Compile and Run
 
 ### 1. Compilation
 
@@ -124,40 +124,21 @@ gcc -Wall -std=c99 seamcarving.c main.c -o seamcarving -lm
 
 > The output files `img0.bin`, `img1.bin`, ..., `imgN.bin` will be written to disk and can be viewed using an image visualizer that supports the `.bin` format or converted to PNG using a helper script.
 
----
-
-## 📊 Sample Output
-
-Removing 5 vertical seams from `HJoceanSmall.bin`:
-
-| Original Image | After 5 Seams Removed |
-|----------------|------------------------|
-| ![](images/original.png) | ![](images/resized.png) |
-
-> *(If available, include visual before/after comparisons here.)*
 
 ---
 
-## 📜 License
-
-This project is provided for **educational use only**.  
-It may be reused, modified, or extended for non-commercial academic purposes.
-
----
-
-## 🙏 Acknowledgements
+## Acknowledgements
 
 > **Assignment Design Credit**:  
 > This project was originally designed by **Josh Hug** and later **ported to C by Michael Guerzhoy** for the ESC190H1F course at the University of Toronto.
 
 > **Code Implementation**:  
-> All code in this repository was written by **Mani Majd**. The seam carving pipeline — energy calculation, seam finding, and seam removal — was implemented in full by the author and is shared here for academic demonstration purposes.
+> All code in this repository was written by the authors.
 
 ---
 
-## 👤 Authors
+## Authors
 
 **ESC190 Project**  
-🛠️ Work done by **Mani Majd** and **Aayush Mengane**  
-University of Toronto – Engineering Science  
+Work done by **Mani Majd** and **Aayush Mengane**  
 📫 [LinkedIn – Mani Majd](https://www.linkedin.com/in/mani-majd)
