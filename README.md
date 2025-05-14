@@ -94,7 +94,8 @@ destroy_image(im);
 
 ## 📽️ Seam Carving Demo
 
-![Seam Carving Demo](https://raw.githubusercontent.com/ManiMajd89/SeamCarver-C-Content-Aware-Image-Resizer/main/images/Seam%20Carving.gif)
+![Seam Carving Demo](https://raw.githubusercontent.com/ManiMajd89/SeamCarver-C-Content-Aware-Image-Resizer/main/Seam%20Carving.gif)
+
 
 ---
 
