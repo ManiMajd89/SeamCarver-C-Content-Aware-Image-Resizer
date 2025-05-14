@@ -8,8 +8,7 @@ This repository contains an implementation of a **content-aware image resizing a
 
 Seam carving is a technique introduced in 2007 to reduce image size while minimizing perceptual distortion. Instead of uniformly shrinking the image, it identifies and removes **low-energy vertical seams**—paths of connected pixels from top to bottom that are least important according to a **dual-gradient energy function**.
 
-This project processes raw RGB images stored in `.bin` files and performs multiple iterations of seam removal. It was implemented as part of coursework for **ESC190H1F – Programming Fundamentals** at the **University of Toronto**.
-
+This project processes raw RGB images stored in `.bin` files and performs multiple iterations of seam removal.
 ---
 
 ## Key Concepts
