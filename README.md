@@ -91,18 +91,10 @@ for (int i = 0; i < 5; i++) {
 destroy_image(im);
 ```
 
----
 
-## 📷 Visual Results
+## 📽️ Seam Carving Demo
 
-Here is a comparison of the original and resized images:
-
-| Original Image            | After Seam Carving         |
-|---------------------------|----------------------------|
-| ![](images/original.png) | ![](images/resized.png)    |
-
-![Original Image](https://yourwebsite.com/images/original.png)
-![Resized Image](https://yourwebsite.com/images/resized.png)
+![Seam Carving Demo](images/seam_demo.gif)
 
 ---
 
